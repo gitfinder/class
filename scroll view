@@ -1,0 +1,13 @@
+#import <UIKit/UIKit.h>
+
+@interface ViewController : UIViewController   <UIScrollViewDelegate>  {
+    
+    
+    IBOutlet UIScrollView *scrollView;
+    
+    IBOutlet UIImageView *imageView;
+}
+@property (strong, nonatomic) IBOutlet UIScrollView *scrollView;
+@property (strong, nonatomic) IBOutlet UIImageView *imageView;
+
+@end
